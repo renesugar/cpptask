@@ -1,10 +1,10 @@
-####About
+# About
 cpptask searches through all current files and subfolders for TODO, FIXME,
     and NOTE comments and writes a Python program that writes the tasks
     found to standard output. The resulting program can be modified to 
     change the output format.
 
-####Usage
+# Usage
 ```
 Usage: ./cpptask.py [FLAGS]
     --path:       Base path of the project to be scanned (Default: .)
