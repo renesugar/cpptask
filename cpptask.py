@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import regex
 import os
 import argparse
@@ -111,8 +110,8 @@ def main():
   if os.path.isfile(outputFile):
     # Don't overwrite existing files in case the output file has the same name
     # as a project file and the output path is in a project directory.
-    print "Error: output file '" + outputFile + "' already exists."
-    sys.exit(1);
+    print("Error: output file '" + outputFile + "' already exists.")
+    sys.exit(1)
 
   basePath = os.path.abspath(os.path.expanduser(args['path']))
 
