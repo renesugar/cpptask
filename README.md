@@ -6,7 +6,7 @@ cpptask searches through all current files and subfolders for TODO, FIXME,
 
 # Usage
 ```
-Usage: ./cpptask.py [FLAGS]
+Usage: python3 -B ./cpptask.py [FLAGS]
     --path:       Base path of the project to be scanned (Default: .)
     --root:       Root path of the project to be scanned (Default: /)
     --prefix:     Replace root path with this prefix (Default: /)
